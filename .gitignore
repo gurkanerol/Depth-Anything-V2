@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Research checkpoints (372M/95M — GitHub 100MB limiti aşar, HF'den indirilir)
+checkpoints/
+*.pth
+
+# Build/cache
+build/
+dist/
+*.egg-info/
+.cache/
+wandb/
+runs/
+outputs/
